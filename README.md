@@ -1,2 +1,1 @@
-# Pyhton-Aplicado-a-la-Ingenier-a-Civil
-Procedimientos de Ingeniría Civil de analisis y diseños realizados en Pyhton
+# Pyhton Aplicado a la Ingeniería Estructural
