@@ -7,5 +7,6 @@ dependencies:
   - pip=21.0
   - cadquery=master
   - matplotlib=3.3
+  - libGL
   - pip:
-      - jupyter-cadquery==3.0.0
+      - jupyter-cadquery
