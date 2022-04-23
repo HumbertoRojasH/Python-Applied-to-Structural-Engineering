@@ -8,7 +8,6 @@ dependencies:
   - cadquery=master
   - pip:
       - jupyter-cadquery==3.0.0
-      - gmsh
       - pmef
       - scipy
       - pyvista
