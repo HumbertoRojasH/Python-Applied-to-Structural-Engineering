@@ -1,7 +1,6 @@
 pmef
 meshio
 pyvista
-gmsh
 pythreejs
 ipywidgets
 ipygany
