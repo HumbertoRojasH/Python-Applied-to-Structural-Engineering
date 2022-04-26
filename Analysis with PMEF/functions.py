@@ -151,6 +151,7 @@ def Analysis_FEM(W,H,L,E,v,de,F,fix, FS):
     mesh["Ux"] = u[0::3]
     mesh["Uy"] = u[1::3]
     mesh["Uz"] = u[2::3]
-    # mesh_vtp = mesh.extract_surface()
+    mesh_vtp = mesh.extract_surface()
     mesh.save("result.vtk")
+    mesh_vtp.save("result.vtp")
     return u
