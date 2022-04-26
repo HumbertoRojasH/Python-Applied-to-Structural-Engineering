@@ -91,7 +91,7 @@ def Analysis_FEM(W,H,L,E,v,de,F,fix, FS):
         E = Elas
         v = poisson
         density = de
-        selfweight = 0
+        selfweight = de*9.80665
         gravity = grav
 
     class ElementData:
@@ -137,7 +137,6 @@ def Analysis_FEM(W,H,L,E,v,de,F,fix, FS):
     K = AssembleMatrix(Mesh,ElementData, ProblemData, ModelData, "MatrizK")
 
     f = AssembleVector(Mesh,ElementData, ProblemData, ModelData, "VectorF")
-    f = zeros(N, "float64")
 
     [K, f] = ApplyBC(K, f, BC_data, Mesh, ElementData, ProblemData, ModelData)
 
